@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #00796b;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>📸 My Gallery</h1>
+    <a href="index.html">⬅ Back to Home</a>
+  </header>
+
+  <div class="gallery">
+    <img src="https://raw.githubusercontent.com/mishrapriyam0521/Portfolio-/main/photo.jpg" alt="Photo 1">
+    <img src="https://raw.githubusercontent.com/mishrapriyam0521/Portfolio-/main/photo2.jpg" alt="Photo 2">
+    <img src="https://raw.githubusercontent.com/mishrapriyam0521/Portfolio-/main/photo3.jpg" alt="Photo 3">
+  </div>
+
+</body>
+</html>
