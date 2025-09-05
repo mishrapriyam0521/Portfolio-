@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Priyam Mishra - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(120deg, #e0f7fa, #fff);
+      color: #333;
+    }
+    header {
+      background: #00796b;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      margin-bottom: 15px;
+    }
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 5px 0;
+      font-size: 1rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    section h2 {
+      color: #00796b;
+      border-bottom: 2px solid #e0f7fa;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #004d40;
+      color: white;
+      margin-top: 30px;
+    }
+    a {
+      color: #00796b;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="photo.jpg" alt="Priyam Mishra">
+    <h1>Priyam Mishra</h1>
+    <p>B.Tech + MBA | Process Coordinator</p>
+    <p>📍 Gurugram, Haryana</p>
+    <p>📧 mishrapriyam0521@gmail.com | 📱 6394848787</p>
+    <p><a href="https://www.linkedin.com/in/priyam-mishra-850a86144" target="_blank" style="color: yellow;">🔗 LinkedIn Profile</a></p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>About Me</h2>
+      <p>Hello! I am Priyam Mishra, a dedicated Process Coordinator with a background in B.Tech and MBA. I have strong analytical and coordination skills, passionate about improving processes and delivering results with efficiency.</p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li><strong>MBA</strong> – [Your Specialization], [University Name]</li>
+        <li><strong>B.Tech</strong> – [Your Branch], [University Name]</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Process Coordination & MIS Reporting</li>
+        <li>Data Analysis & Excel</li>
+        <li>ERP & Business Communication</li>
+        <li>Leadership & Teamwork</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <p><strong>Process Coordinator</strong> – Assago Industries Pvt. Ltd.</p>
+      <ul>
+        <li>Coordinating plant operations and reporting.</li>
+        <li>Managing ERP entries and production tracking.</li>
+        <li>Assisting in MIS reports for management decisions.</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Priyam Mishra | Portfolio Website</p>
+  </footer>
+</body>
+</html>
